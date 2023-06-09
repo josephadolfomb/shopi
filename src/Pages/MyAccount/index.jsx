@@ -1,9 +1,11 @@
+import Layout from '../../Components/Layout'
+
 function MyAccount() {
     return (
-      <div className='bg-esmerald-600'>
+      <Layout>
         MyAccount
-      </div>
+      </Layout>
     )
   }
-  
+    
   export default MyAccount

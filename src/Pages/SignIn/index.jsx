@@ -1,8 +1,10 @@
+import Layout from '../../Components/Layout'
+
 function SignIn() {
-    return (
-      <div className='bg-esmerald-600'>
-        SignIn
-      </div>
+  return (
+    <Layout>
+      SignIn
+    </Layout>
     )
   }
   
