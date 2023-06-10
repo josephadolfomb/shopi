@@ -2,7 +2,7 @@
 
 This project is an E-Commerce Website developed using React, Vite & Tailwind CSS.
 
-Final proyect for the course of React on Platzi repo, made by teffcode and Platzi team.
+Final proyect for the course of React.js with Vite.js & TailwindCSS on Platzi repo, made by teffcode and Platzi team.
 
 ## Skills
 
