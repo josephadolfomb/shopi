@@ -1,7 +1,8 @@
 import { useContext } from 'react'
 import { NavLink } from 'react-router-dom'
-import { ShoppingBagIcon } from '@heroicons/react/24/solid'
 import { ShoppingCartContext } from '../../Context'
+import ShoppingCart from '../ShoppingCart'
+
 const Navbar = () => {
   const context = useContext(ShoppingCartContext)
   const activeStyle = 'underline underline-offset-4'
@@ -16,13 +17,11 @@ const Navbar = () => {
   const noAccountInLocalStorage = parsedAccount ? Object.keys(parsedAccount).length === 0 : true
   const noAccountInLocalState = context.account ? Object.keys(context.account).length === 0 : true
   const hasUserAnAccount = !noAccountInLocalStorage || !noAccountInLocalState
-
   const handleSignOut = () => {
     const stringifiedSignOut = JSON.stringify(true)
     localStorage.setItem('sign-out', stringifiedSignOut)
     context.setSignOut(true)
   }
-
   const renderView = () => {
     if (hasUserAnAccount && !isUserSignOut) {
       return (
@@ -67,7 +66,6 @@ const Navbar = () => {
       )
     }
   }
-
   return (
     <nav className='flex justify-between items-center fixed z-10 top-0 w-full py-5 px-8 text-sm font-light'>
       <ul className='flex items-center gap-3'>
@@ -140,8 +138,7 @@ const Navbar = () => {
       <ul className='flex items-center gap-3'>
         {renderView()}
         <li className='flex items-center'>
-          <ShoppingBagIcon className='h-6 w-6 text-black'></ShoppingBagIcon>
-          <div>{context.cartProducts.length}</div>
+          <ShoppingCart />
         </li>
       </ul>
     </nav>
