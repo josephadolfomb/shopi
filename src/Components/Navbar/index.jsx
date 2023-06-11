@@ -2,7 +2,6 @@ import { useContext } from 'react'
 import { NavLink } from 'react-router-dom'
 import { ShoppingCartContext } from '../../Context'
 import ShoppingCart from '../ShoppingCart'
-
 const Navbar = () => {
   const context = useContext(ShoppingCartContext)
   const activeStyle = 'underline underline-offset-4'
@@ -27,7 +26,7 @@ const Navbar = () => {
       return (
         <>
           <li className='text-black/60'>
-            teff@platzi.com
+            {parsedAccount?.email}
           </li>
           <li>
             <NavLink
