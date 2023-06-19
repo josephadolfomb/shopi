@@ -59,6 +59,6 @@ Added In:
 #### React.js Lab: Professional E-Commerce
 ![Home](https://i.imgur.com/ojNpZbn.png)
 
-## Source
+## Based In
 
 Original repository [here](https://github.com/platzi/curso-react-practico), made by [@teffcode](https://github.com/teffcode) and Platzi team. 💚
