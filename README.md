@@ -18,16 +18,37 @@ Click to try
 - [v.1.2.9](https://shopi-react-vite-tailwindcss.netlify.app/sign-in)
 
 
-## Screenshots
+## Wireframes
+
+### Shopi v1
+![My Account](https://i.imgur.com/vbfRlQC.png)
 
 #### Home
-![Home](https://i.imgur.com/WziSAyS.png)
+![My Account](https://i.imgur.com/GaRLW35.png)
+
+#### Search bar and category filter
+![My Account](https://i.imgur.com/PUb8PFc.png)
+
+#### Product Detail
+![My Account](https://i.imgur.com/x4ZiaQR.png)
+
+#### Checkout
+![My Account](https://i.imgur.com/lMrNGUw.png)
+
+#### My Orders
+![My Account](https://i.imgur.com/6VNIEHM.png)
+
+### Shopi version 2
+![My Account](https://i.imgur.com/mrvQ3Vr.png)
+
+#### My account version 2
+![My Account](https://i.imgur.com/3JScFug.png)
+
+#### Edit my account
+![My Account](https://i.imgur.com/HptPcM7.png)
 
 #### Log in
-![Log in](https://i.imgur.com/JDk9HrA.png)
-
-#### My Account
-![My Account](https://i.imgur.com/Uex0Tjh.png)
+![My Account](https://i.imgur.com/0lCvk36.png)
 
 
 ## Features
